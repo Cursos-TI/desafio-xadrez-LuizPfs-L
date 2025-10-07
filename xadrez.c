@@ -8,15 +8,16 @@ int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
     printf("***Desafio de Xadrez - MateCheck***\n");
+    printf("*Nivel Novato*\n");
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
-     
-    printf("*Movimentação do Bispo*\n");//Bispo: 5 casas na diagonal superior direita
+     printf("*Movimentação do Bispo*\n");//Bispo: 5 casas na diagonal superior direita
     for (int i = 0; i < 5; i++){ // Como a movimentação diagonal é uma combinação, usamos printf para cada "passo"
     printf("Cima e Direita\n");// que representa uma combinação de "Cima" e "Direita
      }  
     printf("\n");//Só pra dá um espaço no terminal  
-   // Implementação de Movimentação da Torre
+  
+    // Implementação de Movimentação da Torre
    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.                                
     printf("*Movimentação da Torre*\n");
     int torre = 1;
@@ -40,6 +41,21 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+     printf("*Nivel Aventureiro*\n");
+     printf("*Movimentação do Cavalo*\n");
+     int cavalo = 1;
+     while (cavalo --)
+     {
+        for (int i = 0; i < 2; i++)
+        {
+           printf("Baixo\n");//imprime Baixo duas vezes
+        }
+        printf("Esquerda\n");//Imprime Esquerda uma vez
+        }
+        printf("\n");
+        //Nivel Aventureiro Concluido
+     
+
     
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
